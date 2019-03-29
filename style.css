@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-wrap: row;
+    flex-flow: row wrap;
+}
+body {
+    text-align: center;
+    background: url("https://external-preview.redd.it/TTuZUzb0FnsC1f4rqA-dcEnNkauek_gxmLChPcTI1N4.jpg?auto=webp&s=5ced51d0020fafd85e4b00eeccb5f9b0ff1d6a5c");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    padding: 100px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .TopBorder{
+      padding: 50px;
+      margin:0px;
+      margin-top: 20%;
+  }
+  .BottomBorder{
+      margin: 0px;
+      margin-left: 40%;
+      padding: 100px;
+  }
+  input {
+    border: 10px;
+    padding: 1px;
+    font-size: 20px;
+  }
+  input[type="submit"] {
+    background: white;
+    color: black;
+  }
+  img{
+      border-radius: 10%;
+  }
